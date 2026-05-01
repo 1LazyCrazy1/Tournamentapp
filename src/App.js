@@ -30,7 +30,6 @@ const PROMPTS = [
   "Oh yeah, that reminds me of the time ___."
 ];
 
-export default function App() {
 
 export default function App() {
   const [gameState, setGameState] = useState('setup');
