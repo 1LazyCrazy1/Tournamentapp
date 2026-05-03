@@ -377,3 +377,36 @@ button:active {
     font-size: 32px;
   }
 }
+.hand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.white-card {
+  background: white;
+  color: #000;
+  border: 2px solid #000;
+  padding: 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-card:hover {
+  background: #f0f0f0;
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.white-card:active {
+  transform: translateY(0);
+}
